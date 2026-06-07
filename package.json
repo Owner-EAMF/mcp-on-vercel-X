@@ -1,7 +1,7 @@
 {
   "name": "mcp-on-vercel",
   "version": "1.0.0",
-  "description": "",
+  "description": "Twitter MCP Server on Vercel",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -13,6 +13,7 @@
   "packageManager": "pnpm@10.0.0",
   "dependencies": {
     "mcp-handler": "^1.0.1",
+    "twitter-api-v2": "^1.19.0",
     "zod": "^3.24.2"
   },
   "devDependencies": {
